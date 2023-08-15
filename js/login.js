@@ -6,7 +6,7 @@ document.getElementById('btn-login').addEventListener('click', function(){
     const password = passwordField.value;
     passwordField.value = '';
     if(email === 'baaper@sontaan.com' && password === 'secret'){
-        console.log('Valid User');
+        window.location.href = 'bank.html';
     }
     else{
         alert('Wrong Email or Password');
